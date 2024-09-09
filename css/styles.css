@@ -1,7 +1,7 @@
 /*font-family: "Raleway", sans-serif;
 font-family: "Roboto", sans-serif;*/
 .body{
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: #fff;
 }
@@ -20,10 +20,12 @@ a{
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.header-logo .logo-part{
+.header-logo 
+.logo-part {
     color: #2e2f42
 }
-.footer-logo .logo-part {
+.footer-logo 
+.logo-part {
 color: #f4f4fd;
 }
 .nav-link{
@@ -52,16 +54,17 @@ color: #404bbf;
 .contacts-link:focus{
 color: #404bbf;
 }
-.page-hero{
-    background-color: #2e2f42;
+.page-hero {
+background-color: #2e2f42;
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 }
 .page-hero-button{
+    cursor: pointer;
     font-family: inherit;
     background-color: #4d5ae5;
     font-weight: 500;
@@ -88,11 +91,12 @@ color: #fff;
         line-height: 1.5;
         letter-spacing: 0.02em;
         background-color: #fff;
+        color: #434455;
 }
 .page-title{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -106,6 +110,7 @@ color: #fff;
 }
 /*Page Our Portfolio*/
 .main-page-title{
+    text-transform: capitalize;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
